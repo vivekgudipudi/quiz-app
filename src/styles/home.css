@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.main-head {
+  font-size: xx-large;
+}
+
+.main-desc {
+  width: 30rem;
+  text-align: center;
+  font-size: large;
+}
+
+.btn {
+  background: none;
+  margin: 0.5rem;
+  padding: 0.8rem 1.6rem;
+  border-radius: 0.5rem;
+  font-weight: bolder;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-active:active {
+  background: none;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.btn-secondary {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.btn-lg {
+  display: block;
+}
+
+@media screen and (max-width: 750px) {
+  .main-desc {
+    width: 15rem;
+  }
+}

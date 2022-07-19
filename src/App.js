@@ -1,13 +1,15 @@
-import './App.css';
+import "./App.css";
+import { Nav, Footer } from "./components";
+import { Routes } from "./routes";
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <>
+      <Nav />
+      <Routes />
+      <Footer />
+    </>
   );
 }
 
 export default App;
-
-

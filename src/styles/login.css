@@ -1,0 +1,35 @@
+.auth-form {
+  margin-top: 5rem;
+  height: 100%;
+}
+
+.auth-form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0.4rem;
+  padding: 1rem;
+  width: 20rem;
+  background-color: #f0fdfa;
+}
+
+.auth-form form .input-box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+}
+
+.login-btn {
+  padding: 0.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.input-box input {
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}

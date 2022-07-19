@@ -1,0 +1,62 @@
+.result-gap {
+  margin-top: 3rem;
+}
+
+.result-correct {
+  background-color: green !important;
+}
+
+.result-incorrect {
+  background-color: red !important;
+}
+
+.answer-correct {
+  color: green;
+}
+
+.answer-incorrect {
+  color: red;
+}
+
+/* Table for latest results */
+table {
+  margin-top: 5rem;
+  border-collapse: collapse;
+  width: 50rem;
+  margin-bottom: 10rem;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th {
+  text-align: center;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.sm-icon {
+  width: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.mid-ver {
+  display: flex;
+  align-items: center;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.empty-data {
+  width: 30rem;
+}
