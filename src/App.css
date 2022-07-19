@@ -1,1 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
 
+@import url("./styles/home.css");
+@import url("styles/themes.css");
+@import url("styles/footer.css");
+@import url("styles/quest.css");
+@import url("styles/login.css");
+@import url("styles/results.css");
+
+* {
+  font-family: "Lato", sans-serif;
+  --primary-color: #14b8a6;
+  --slate-white: #f8fafc;
+}
+
+body {
+  height: 100%;
+}
+
+nav .nav-opts {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.categories {
+  display: flex;
+  gap: 1rem;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.category-badge {
+  background-color: var(--primary-color);
+  color: var(--slate-white);
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
